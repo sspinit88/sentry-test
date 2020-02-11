@@ -1,0 +1,24 @@
+<p>
+  First works!
+</p>
+
+
+<button (click)="firstEmpty('Empty #1')"
+        class="first-empty-one">Empty #1</button>
+<br>
+<br>
+<button (click)="firstEmpty('Empty #2')"
+        class="first-empty-one">Empty #2</button>
+<br>
+<br>
+<button (click)="getData()"
+        class="first-get">Get First Post
+</button>
+<br>
+<br>
+<br>
+<br>
+<div *ngIf="post" class="first-user">
+  <p>{{ post.title }}</p>
+</div>
+

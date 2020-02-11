@@ -1,0 +1,23 @@
+<p>
+  Secondary works!
+</p>
+
+<button (click)="secondaryEmpty('Empty #1')"
+        class="secondary-empty-one">Empty #1</button>
+<br>
+<br>
+<button (click)="secondaryEmpty('Empty #2')"
+        class="secondary-empty-one">Empty #2</button>
+<br>
+<br>
+<button (click)="getData()"
+        class="secondary-empty-one">Get First User
+</button>
+<br>
+<br>
+<br>
+<br>
+<div *ngIf="user" class="secondary-user">
+  <p>{{ user.name }}</p>
+</div>
+
