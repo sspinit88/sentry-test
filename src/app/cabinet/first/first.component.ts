@@ -25,7 +25,7 @@ export class FirstComponent {
         res => {
           this.post = res[0];
         }, error => {
-          console.log('error in first', error);
+          console.log('error in first!', error);
         }
       );
   }
